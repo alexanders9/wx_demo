@@ -1,0 +1,30 @@
+.gifts {
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+  height: 100%;
+}
+.wrap {
+  width: 305px;
+  height: 334px;
+  opacity: 0.06;
+  background: #FFFFFF;
+  border-radius: 10px;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.content {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 23px;
+}
+.btn {
+  font-family: PingFangSC-Regular;
+  font-size: 15px;
+  text-align: center;
+}
+model {
+  margin-top: -50px;
+}

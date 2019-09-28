@@ -1,0 +1,36 @@
+.dialogue {
+  z-index: 1;
+  width: 295px;
+  height: 468px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 1px 10px 2px rgba(0,0,0,0.10);
+  border-radius: 8px;
+}
+.dialogue image {
+  height: 92px;
+  z-index: 9999;
+  width: 295px;
+}
+.title {
+  color: #3976F0;
+  font-size: 23;
+  font-family: PingFangSC-Regular;
+}
+.title_two {
+  color: #1B0000;
+  font-size: 16px;
+  font-family: PingFangSC-Regular;
+}
+.qrcode {
+  width: 180px;
+  height: 180px;
+}
+.tip {
+  color: #051B4D;
+  font-size: 12px;
+  font-family: PingFangSC-Regular;
+}

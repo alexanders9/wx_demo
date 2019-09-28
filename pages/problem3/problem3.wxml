@@ -1,0 +1,8 @@
+<background></background>
+<view class="container">
+  <view class="content">
+    <title src="/static/images/cp.png"></title>
+    <view class="title">{{title}}</view>
+    <dialogue id="dialogue" total='6' num="4" problem="{{problem}}" options="{{options}}" bind:next="next"></dialogue>
+  </view>
+</view>

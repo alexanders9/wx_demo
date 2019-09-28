@@ -1,0 +1,10 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "AEYDH香水",
+  "backgroundColor": "#ffffff",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+    "model": "/components/model/model"
+  }
+}

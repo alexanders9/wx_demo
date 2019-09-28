@@ -1,0 +1,16 @@
+.yh {
+  width: 27px;
+  height: 25px;
+}
+.head {
+  margin-right: 145px;
+  margin-bottom: 10px;
+}
+.head .yh {
+  margin-bottom: 14px
+}
+.head .cp {
+  width: 80px;
+  height: 40px;
+  margin-left: 13px;
+}

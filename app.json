@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/personal/personal",
+    "pages/prize/prize",
+    "pages/results/results",
+    "pages/evaluation/evaluation",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/problem0/problem0",
+    "pages/problem1/problem1",
+    "pages/problem2/problem2",
+    "pages/problem3/problem3",
+    "pages/problem4/problem4"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

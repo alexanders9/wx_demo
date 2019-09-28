@@ -1,0 +1,9 @@
+<view class="model">
+  <image src="/static/images/f1.jpg"></image>
+  <view>
+    <view class="name">奖品名称：{{name}}</view>
+    <view class="desc">奖品说明：{{description}}</view>
+    <view class="name">奖品状态：{{status}}</view>
+  </view>
+</view>
+<image src="/static/images/close.png" bindtap="_close"></image>

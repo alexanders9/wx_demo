@@ -1,0 +1,13 @@
+<view class="gifts {{bg ? 'bg' : ''}}">
+  <view wx:for="{{gifts}}" wx:for-item="item" wx:for-index="index" wx:key="{{index}}" class="wrap">
+    <view class="img">
+      <image src="{{item.imgUrl}}"></image>
+    </view>
+    <view class="content">
+      <view class="title">奖品名称：{{item.name}}</view>
+      <view class="desc">奖品说明：{{item.description}}</view>
+      <view class="btn" wx:if="{{item.prize}}" bindtap="showModel" data-name="{{item.name}}" data-description="{{item.description}}">领取</view>
+    </view>
+  </view>
+  <model name="{{name}}" description="{{description}}" status="{{status}}" wx:if="{{showModel}}" bind:close="close"></model>
+</view>

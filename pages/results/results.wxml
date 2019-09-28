@@ -1,0 +1,8 @@
+<background></background>
+<view class="container">
+  <view class="content">
+    <title src="/static/images/cp2.png"></title>
+    <view class="title">{{title}}</view>
+    <prize content="{{content}}" prize="{{prize}}" bind:prize="bindPrize"></prize>
+  </view>
+</view>

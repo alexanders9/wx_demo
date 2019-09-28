@@ -1,0 +1,9 @@
+<view class="container">
+  <image class='background' src="/static/images/background_0.jpg" mode="aspectFill"></image>
+  <view class="dialogue">
+    <view class="title">长按下图</view>
+    <view class="title_two">关注【AEYDH香水】公众号</view>
+    <image class="qrcode" src="/static/images/qrcode.png" bindtap="bindToEvaluation"></image>
+    <view class="tip">先关注公众号，才能参加活动哦~</view>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+<view class="wrap">
+  <view class="content">
+    {{content}}
+  </view>
+  <view wx-if="{{prize}}" class="btn" bindtap="_goPrize">去领奖台</view>
+</view>

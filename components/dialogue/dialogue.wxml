@@ -1,0 +1,35 @@
+<view class="dialogue" id="dialogue">
+  <view class="head">
+    <view>
+      <view>第{{num}}题</view>
+      <view>共{{total}}题</view>
+    </view>
+    <view>{{problem}}</view>
+  </view>
+  <view class="options_font" wx:if="{{options.type === 'font'}}">
+    <view
+      wx:for="{{options.list}}"
+      wx:for-index="index"
+      wx:for-item="item"
+      wx:key="{{index}}"
+      class="wrap, {{item.active ? 'active': 'unactive'}}"
+      data-url="{{item.url}}"
+      data-index="{{index}}"
+      bindtap="_next">
+      <view class="opt">{{item.option}}</view>
+    </view>
+  </view>
+  <view class="options_img" wx:if="{{options.type === 'img'}}">
+    <view
+      wx:for="{{options.list}}"
+      wx:for-index="index"
+      wx:for-item="item"
+      wx:key="index"
+      class="wrap, {{item.active ? 'active': 'unactive'}}"
+      data-url="{{item.url}}"
+      data-index="{{index}}"
+      bindtap="_next">
+      <image class="img" src="{{item.option}}"></image>
+    </view>
+  </view>
+</view>
